@@ -56,6 +56,39 @@ body {
     margin-left: 20%;
 }
 
+/* images */
+.section{
+    background-color: #E5E5E5;
+}
+
+.section .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.img_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_section p {
+    width: 200px;
+    /* align-items: center; */
+    /* flex-direction: row; */
+}
+
+.img_section h4 {
+    color: #E6005A;
+}
+
+img{
+    height: 150px;
+}
+
+/* ------------------------------ */
+
 .footer {
     background-color: #32b9cd;
     color: white;
@@ -96,6 +129,7 @@ form {
 
 form label {
     margin-top: 8px;
+    font-weight: bold;
 }
 
 form input {
