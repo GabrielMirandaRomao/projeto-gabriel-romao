@@ -39,7 +39,7 @@ body {
 }
  
 .banner .container {
-    height: 550px;
+    height: 90vh;
     display: flex;
     color: white;
     align-items:center;
